@@ -3,7 +3,8 @@
 var myIndex = 0;
 carousel();
 
-function carousel() {
+function carousel() 
+{
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
