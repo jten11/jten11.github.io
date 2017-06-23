@@ -1,55 +1,107 @@
-﻿<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>The Portrait of Jamaal Sands</title>
-	<meta name="description" content="Portrait of Jamaal">
-	<meta name="author" content="SitePoint">
-	
-		 <link rel="stylesheet" type="text/css" href="css/index.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="index.js"></script>
-	
-
-	
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
-
-
+﻿<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/index.css">
+<script type="text/javascript" src="js/index.js"></script>
 
 <body>
-
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    ...
-  </div>
+<!-- Navigation Bar-->
+<nav class="w3-bar w3-red">
+	<a href="#home" class="w3-button w3-bar-item">Home</a>
+	<a href="#about" class="w3-button w3-bar-item">About</a>
+	<a href="#portfolio" class="w3-button w3-bar-item">Porfolio</a>
+	<a href="#contact" class="w3-button w3-bar-item">Contact</a>
 </nav>
 
-<div class="dafont">
-<div class="grey container-fluid fitdammit div">
-<p align="left">
-    Composer, DJ, Blogger, Gamer, Lover, Front End Web Devloper 
+<!-- Slide Show-->
+<section id="home" class="w3-center">
+<img src="https://static.pexels.com/photos/443356/pexels-photo-443356.jpeg"  style="width:100%" >
+</section>
+
+<!-- Title-->
+<section class="w3-container w3-center w3-content" style="max-width:600px" id="about">
+<h1 class="w3-wide">Jamaal Sands</h1>
+<p class="w3-opacity"><i>Taking over the world</i></p>
+<p class="w3-justify">
+Born and raised in Miami, Jamaal always had the sun and the water on his side. His curiostly of the world he lives on drew him into nature and the natural beauties. You can always find him somehwere in the keys surrounded by water, or at some state park admiring the sights and sounds. He also have many different talents, such as writing music and DJ'ing. Food is another passions, as he loves to eat as much as he loves to bake. Web design is a new path he's taking on, and so far it looks like a prosperous future.</p>
+</section>
+
+<!-- Porfolio-->
+<section class="w3-row-padding w3-center w3-light-grey" id="portfolio">
+
+<h2 class="w3-wide">Portfolios</h2>
+<article class="w3-third">
+	<p>Tribute Page</p>
+	<a href="https://codepen.io/jten11/full/ZyYdZb/"><img src= "images/Tribute.jpg" alt="John Horse" style="width:100%">
+	</a></article>
+	
+	<article class="w3-third">
+	<p>Coming Soon!</p>
+	<a href="#"><img src= "http://sabharwals.net/wp-content/uploads/2014/06/placeholder-815x458.png" alt="Coming Soon" style="width:100%">
+	</a></article>
+	
+	<article class="w3-third">
+	<p>Coming Soon!</p>
+	<a href="#"><img src= "http://sabharwals.net/wp-content/uploads/2014/06/placeholder-815x458.png" alt="Coming Soon" style="width:100%">
+	</a></article>
+	</section>
+	
+<section class="w3-row-padding w3-center w3-light-grey" >	
+	<article class="w3-third">
+	<p>Coming Soon!</p>
+	<a href="#"><img src= "http://sabharwals.net/wp-content/uploads/2014/06/placeholder-815x458.png" alt="Coming Soon" style="width:100%">
+	</a></article>
+	
+	<article class="w3-third">
+	<p>Coming Soon!</p>
+	<a href="#"><img src= "http://sabharwals.net/wp-content/uploads/2014/06/placeholder-815x458.png" alt="Coming Soon" style="width:100%">
+	</a></article>
+		
+	<article class="w3-third">
+	<p>Coming Soon!</p>
+	<a href="#"><img src= "http://sabharwals.net/wp-content/uploads/2014/06/placeholder-815x458.png" alt="Coming Soon" style="width:100%">
+	</a></article>
+	
+	
+	
+
+
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge" id="contact">
+  <a href="https://www.facebook.com/jamaal.sands.5"><i class="fa fa-facebook-official"></i></a>
+  <a href="https://www.pinterest.com/jamaalsands/"><i class="fa fa-pinterest-p"></i></a>
+  <a href="https://www.instagram.com/jten11/"><i class="fa fa-instagram"></i></a>
+  
+  <p class="w3-medium">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
   </p>
- 
-   <img src="https://static.pexels.com/photos/111755/pexels-photo-111755.jpeg" width="30%" height="30%" class="border right" id="sunset"/>
-  
-</div>
-<div class=" orange container" align="center">
-  Portfolios
-</div>
-<div class=" green container" align="center">
-    Contact Me
-</div>
-<div  align="center">
-     About this Page
-</div>
-<div class="container-fluid" align="center">
-  © 2017. All Rights Reversed
-</div>
-  
-</div>
-  <script src="js/scripts.js"></script>
+</footer>
+<!-- unneeded
+<script>
+
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+-->
+
 </body>
+
 </html>

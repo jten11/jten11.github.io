@@ -1,26 +1,7 @@
-.grey{background-color:grey;
-font-size:20px;}
-.orange{background-color:orange;}
-.green{background-color:green;}
-.white{background-color:white;}
-
-.dafont{font-family:Verdana;
-         font-weight:bold}
-
-.right{float:right;}
-    
-.border{border-radius:50%;
-  }
-
-body{
-  background-color:purple;
-}
-
-.fitdammit{overflow:hidden;}
-
-
-.div{
-    height: 500px;
-    width: 1000px;
-    background-color: powderblue;
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
